@@ -111,6 +111,11 @@ endmodule
 ![Full_subtractor RTL](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/2e6d38c3-e745-4036-9f8b-57af8b0bc5ed)
 
 ## Timing diagram 
+### Half_Subtractor
+![Half_subtractor Output](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/c8d5e71f-9c96-4b9b-a3ce-03dbf214332a)
+
+### Full_Subtractor
+![Full_subtractor Output](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/72a7cb09-d232-4b13-8c51-9e6faeb4b9f8)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
