@@ -75,20 +75,40 @@ Output Waveform.
 
 
 ## Program:
-/*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
+### Half_Subtractor
+````
+module Half_sub(a,b,differ,borrow);
+input a,b;
+output differ,borrow;
+xor(differ,a,b);
+assign borrow = ~a & b;
+endmodule 
+````
+### Full_Subtractor
+````
+module Full_sub(a,b,c,borrow,differ);
+input a,b,c;
+output borrow,differ;
+xor(differ,a,b,c);
+assign borrow = (~a)&c | (~a)&b |(b&c);
+endmodule 
+````
 ## Output:
 
 ## Truthtable
 
+### Half_Subtractor
+![image](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/b1839474-26a9-471e-9545-ceeb88e83b9e)
+### Full_Subtractor
+![image](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/29e141df-d3ce-4c1e-b870-56f8ab66d75f)
 
 
 ##  RTL realization
+### Half_Subtractor
+![Half _subtractor RTL](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/c9d89939-28b7-46a7-84ca-90191b7bc980)
 
+### Full_Subtractor
+![Full_subtractor RTL](https://github.com/VISHWARAJ-G/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/140417431/2e6d38c3-e745-4036-9f8b-57af8b0bc5ed)
 
 ## Timing diagram 
 
