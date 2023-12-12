@@ -43,6 +43,8 @@ language.
 
 
 3.	Write the Combinational Logic Code:
+
+
 Open the newly created Verilog or VHDL file and write the code for your combinational logic.
 
 
@@ -55,6 +57,8 @@ Quartus will analyze your code, synthesize it into a netlist, and perform optimi
 
 
 5.	Analyze and Fix Errors:
+
+
 If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
 Review and fix any issues in your code if necessary. View the RTL diagram.
 
